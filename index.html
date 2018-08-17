@@ -3,9 +3,145 @@
 	
 	<head>
 		
-		<script src="includes/fullpage.html"></script>
-		<script src="includes/head.html"></script>
+		<!-- fullpage.js -->
+
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					anchors:['1', '2', '3', '4', '5', '6', '7', '8'],
+					sectionsColor: ['#ffffff', '#212126', '#370A57', '#FF6400', '#00BE46', '#FF3366', '#1E3246', '#212126'],
+					navigation: true,
+					navigationPosition: 'left',
+					responsiveWidth: 800,
+					
+					'afterLoad': function(index){
+						if(index == 1){
+							setTimeout(function(){
+								$('#section1').find('.intro').addClass('active');
+							}, 500);
+						}
+						if(index == 2){
+							$('.column:nth-of-type(1)').addClass('active');
+						}
+						if(index == 2){
+							setTimeout(function(){
+								$('.column:nth-of-type(2)').addClass('active');
+							}, 100);
+						}
+						if(index == 2){
+							setTimeout(function(){
+								$('.column:nth-of-type(3)').addClass('active');
+							}, 200);
+						}
+						if(index == 2){
+							setTimeout(function(){
+								$('.full-width').addClass('active');
+							}, 600);
+						}
+						if(index == 8){
+							$('.first').addClass('active');
+						}
+						if(index == 8){
+							setTimeout(function(){
+								$('.second').addClass('active');
+							}, 200);
+						}
+						if(index == 8){
+							setTimeout(function(){
+								$('.third').addClass('active');
+							}, 300);
+						}
+						if(index == 8){
+							setTimeout(function(){
+								$('.fourth').addClass('active');
+							}, 400);
+						}
+						if(index == 8){
+							setTimeout(function(){
+								$('.fifth').addClass('active');
+							}, 600);
+						}
+						if(index == 3){
+							$('#section3').find('.text').addClass('active');
+						}
+						if(index == 4){
+							$('#section4').find('.text').addClass('active');
+						}
+						if(index == 5){
+							$('#section5').find('.text').addClass('active');
+						}
+						if(index == 6){
+							$('#section6').find('.text').addClass('active');
+						}
+						if(index == 7){
+							$('#section7').find('.text').addClass('active');
+						}
+					},
+					
+					'onLeave': function(nextIndex){
+						if(nextIndex != ''){
+							$('.text').removeClass('active');
+						}
+						if(nextIndex != ''){
+							$('.intro').removeClass('active');
+						}
+						if(nextIndex != ''){
+							$('.column').removeClass('active');
+						}
+						if(nextIndex != ''){
+							$('.full-width').removeClass('active');
+						}
+					},
+				});
+			});
+		</script>
+		
+		<!-- End fullpage.js -->
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<title>James Lavine - Designer - Portland, Maine</title>
+		<meta name="description" content="I’ll help you design your site, app, or brand." />
+		<meta name="keywords" content="design, ux, ui, user experience, washington, dc, user interface, product design" />
+			
+		<link rel="shortcut icon" href="favicon.png">
+		
+		<!-- Font Awesome -->
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		
+		<!-- End Font Awesome -->
+		
+		<!-- Google Analytics -->
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-79188264-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+		
+		<!-- End Google Analytics -->
+		
+		<!-- Stylesheets -->
+		
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles-small.css" media="only screen and (min-width:50px) and (max-width:800px)" />
+		
+		<!-- End Stylesheets -->
+		
+		<link href='https://fonts.googleapis.com/css?family=Work+Sans:300,400,600' rel='stylesheet' type='text/css'>
+		
+		<script src="https://use.fontawesome.com/4a4e12be29.js"></script>
+				
 		<!-- Start of Async Drift Code -->
 		<script>
 		!function() {
