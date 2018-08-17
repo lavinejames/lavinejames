@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+.small-screen {
+	display: block;
+}
+
+.large-screen {
+	display: none;
+}
+
+.project-image {
+    width: 95%;
+    margin: 5% 0 10%;
+}
+
+.text {
+    padding: 10% 5% 0;
+    width: 90%;
+}
+
+.fp-tableCell {
+	display: table-cell;
+}
+
+.column {
+	width: 90%;
+	margin: 5%;
+}
+
+.column-container {
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+	line-height: 1.1;
+	margin-bottom: 1em;
+	font-size: 48px;
+}
+
+.intro {
+    margin: auto;
+    width: 90%;
+}
