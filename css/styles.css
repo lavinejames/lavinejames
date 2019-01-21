@@ -51,7 +51,7 @@ body {
 	margin: 0;
 	font-size: 18px;
 	-webkit-font-smoothing: antialiased;
-	letter-spacing: -.03em;
+	letter-spacing: -.02em;
 }
 
 .intro {
@@ -99,6 +99,7 @@ h1 {
 	font-family: 'Colfax Bold';
 	line-height: 1.2;
 	color: #212126;
+	letter-spacing: -.04em;
 }
 
 h2 {
