@@ -11,8 +11,12 @@
 }
 
 .project-image {
-    width: 95%;
+    width: 94%;
     margin: 5% 0 10%;
+}
+
+.project-image.no-shadow, .project-image.edge {
+	width: 97%;
 }
 
 .text {

@@ -215,7 +215,7 @@ a.simple-arrow:link, a.simple-arrow:visited, a.simple-arrow:hover {
 	padding: 15px 30px;
 	border-radius: 50px;
 	display: inline-block;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 
 .intro a.arrow:link { 
@@ -261,8 +261,9 @@ a.simple-arrow:link, a.simple-arrow:visited, a.simple-arrow:hover {
 }
 
 .project-image {
-	width: 45%;
-	float: right;
+	width: 42%;
+    float: right;
+    padding: 0 3% 0 0;
 }
 
 .project-image img {
@@ -275,19 +276,28 @@ a.simple-arrow:link, a.simple-arrow:visited, a.simple-arrow:hover {
 }
 
 .project-image.double img {
-	max-width: 45%;
+	max-width: 48%;
 	float: right;
 }
 
 .project-image.double img:first-child {
-	margin-left: 10%;
+	margin-left: 4%;
 	margin-top: 10%;
+}
+
+.project-image.no-shadow, .project-image.edge {
+	width: 45%;
+	padding: 0;
 }
 
 .project-image.no-shadow img {
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+.project-image.rounded img {
+	border-radius: 25px;
 }
 
 .full-width {
