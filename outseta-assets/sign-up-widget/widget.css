@@ -1,3 +1,10 @@
+* {
+	transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+}
+
+
 fieldset {
     margin-top: 16px;
 }
@@ -28,6 +35,7 @@ header {
 body, input, .btn, .form-control {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: -.02em;
 }
 
 .has-float-label .form-control:placeholder-shown:not(:focus)+* {
@@ -69,4 +77,12 @@ div#widget-container div.widget .body {
 .form-control:focus, .form-control:hover:not(:disabled):focus, .has-float-label .btn-group button:focus {
     border: 1px solid #4a5fff!important;
     box-shadow: 0 0 0 4px #E6E8FF;
+}
+
+.form-control {
+	color: #000842;
+}
+
+.btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:focus, .btn-primary:hover, .btn-primary[disabled]:hover {
+    background-color: #1F32B3;
 }
