@@ -43,3 +43,30 @@ body, input, .btn, .form-control {
 .form-group {
     margin-bottom: 16px;
 }
+
+div#widget-container div.widget .body {
+	padding: 48px;
+}
+
+.col-sm-6 {
+    width: 50%;
+    margin: 0;
+}
+
+.has-float-label>label, .has-float-label>span {
+    left: 16px;
+}
+
+.has-float-label input, .has-float-label select, .has-float-label .ui-select-toggle, .has-float-label .ui-select-multiple.ui-select-bootstrap input.ui-select-search, .has-float-label .btn-group button, .has-float-label textarea, .has-float-label input:hover:not(:disabled), .has-float-label select:hover:not(:disabled), .has-float-label .ui-select-toggle:hover:not(:disabled), .has-float-label .ui-select-multiple.ui-select-bootstrap input.ui-select-search:hover:not(:disabled), .has-float-label .btn-group button:hover:not(:disabled), .has-float-label textarea:hover:not(:disabled) {
+    padding: 24px 16px 4px;
+}
+
+.has-float-label input:focus, .has-float-label select:focus, .has-float-label .ui-select-toggle:focus, .has-float-label .ui-select-multiple.ui-select-bootstrap input.ui-select-search:focus, .has-float-label .btn-group button:focus, .has-float-label textarea:focus, .has-float-label input:hover:not(:disabled):focus, .has-float-label select:hover:not(:disabled):focus, .has-float-label .ui-select-toggle:hover:not(:disabled):focus, .has-float-label .ui-select-multiple.ui-select-bootstrap input.ui-select-search:hover:not(:disabled):focus, .has-float-label .btn-group button:hover:not(:disabled):focus, .has-float-label textarea:hover:not(:disabled):focus {
+    font-size: 16px;
+    padding: 24px 16px 4px;
+}
+
+.form-control:focus, .form-control:hover:not(:disabled):focus, .has-float-label .btn-group button:focus {
+    border: 1px solid #4a5fff!important;
+    box-shadow: 0 0 0 4px #E6E8FF;
+}
