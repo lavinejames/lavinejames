@@ -82,14 +82,14 @@ div#widget-container div.widget .body {
 }
 
 .form-control:focus, .form-control:hover:not(:disabled):focus, .has-float-label .btn-group button:focus {
-    border: 1px solid #4a5fff!important;
-    box-shadow: 0 0 0 4px #E6E8FF;
+    border: 1px solid #278282!important;
+    box-shadow: 0 0 0 4px rgba(39, 130, 130, 0.3);
 }
 
 .form-control {
-	color: #000842;
+	color: #002129;
 }
 
 .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:focus, .btn-primary:hover, .btn-primary[disabled]:hover {
-    background-color: #1F32B3;
+    background-color: #1B6567;
 }
