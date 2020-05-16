@@ -1,11 +1,11 @@
 <svg preserveAspectRatio="none" viewBox="0 0 1440 750" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="1440" height="750" fill="white"/>
+<rect preserveAspectRatio="none" viewBox="0 0 1440 750" fill="white"/>
 <path d="M1368.7 -2135.04C2215.09 -1740.37 2391.67 -1255.22 1996.99 -408.835C1602.32 437.548 1117.17 614.128 270.785 219.453C-575.598 -175.222 -752.177 -660.37 -357.502 -1506.75C37.1727 -2353.14 522.32 -2529.72 1368.7 -2135.04Z" fill="#FFF9EA"/>
 </g>
 <defs>
 <clipPath id="clip0">
-<rect width="1440" height="750" fill="white"/>
+<rect preserveAspectRatio="none" viewBox="0 0 1440 750" fill="white"/>
 </clipPath>
 </defs>
 </svg>
