@@ -65,7 +65,7 @@ div#widget-container div.widget .body {
 
 .has-float-label>label, .has-float-label>span {
     left: 16px;
-    color: #7070A8;
+    color: rgba(0, 33, 41, 0.7);
 }
 
 .has-float-label .form-control:placeholder-shown:not(:focus)+* {
