@@ -55,8 +55,7 @@ body, input, .btn, .form-control {
 }
 
 div#widget-container div.widget .body {
-	padding: 0;
-	overflow: visible;
+	padding: 4px;
 }
 
 .col-sm-6 {
