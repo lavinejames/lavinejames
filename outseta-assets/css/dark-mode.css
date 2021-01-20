@@ -1,0 +1,343 @@
+/* ****************************************
+ * ** Import Fonts
+ * ****************************************/
+
+
+/* ****************************************
+ * ** Override common controls for light mode
+ * ****************************************/
+a,
+a:focus,
+a:hover {
+    color: #0098A6;
+}
+
+a.disabled {
+    color: #0098A6;
+    opacity: 0.5;
+}
+
+.alert.alert-info {
+    background: #0098A6;
+    color: #FFFFFF;
+}
+
+.form-control:focus,
+.form-control:hover:not(:disabled):focus,
+.has-float-label .btn-group button:focus,
+.ui-select-bootstrap > .ui-select-match:focus {
+    border-color: #0098A6;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary[disabled],
+.btn-primary[disabled]:hover {
+    border-color: #0098A6;
+    border-style: solid;
+}
+
+.btn[disabled] {
+    opacity: 0.5;
+}
+
+.btn[disabled]:hover {
+    opacity: 0.6;
+}
+
+.btn-cancel,
+.btn-link {
+    color: #0098A6;
+}
+
+.btn-cancel:active,
+.btn-cancel:active:hover,
+.btn-cancel:active:focus,
+.btn-cancel:focus,
+.btn-cancel:hover,
+.btn-cancel[disabled]:hover,
+.btn-link:active,
+.btn-link:active:hover,
+.btn-link:active:focus,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link[disabled]:hover {
+    color: #0098A6;
+    text-decoration: underline;
+}
+
+.has-float-label .btn-group .btn .open > .dropdown-toggle.btn-default {
+    border-color: #0098A6;
+}
+
+.dropdown-menu > .active > a {
+    background-color: #0098A6;
+}
+
+o-integer-input .o-integer-input .form-control,
+o-integer-input .o-integer-input .form-control:hover:not(:disabled),
+o-integer-input .o-integer-input .input-group-addon {
+    border-color: #0098A6;
+}
+
+o-integer-input .o-integer-input.disabled .form-control,
+o-integer-input .o-integer-input.disabled .input-group-addon {
+    border-color: #eee;
+}
+
+.pretty input:checked~.state.p-primary-o label:before,
+.pretty.p-toggle .state.p-primary-o label:before {
+    border-color: #0098A6;
+}
+
+.pretty.p-default:not(.p-fill) input:checked~.state.p-primary-o label:after,
+.pretty input:checked~.state.p-primary label:after,
+.pretty.p-toggle .state.p-primary label:after {
+    background-color: #0098A6 !important; /* Must be important because pretty.css defines it as such */
+}
+
+.x:hover:before,
+.x:hover:after {
+    background-color: #0098A6;
+    opacity: 1;
+}
+
+/* ****************************************
+* ** displayMode
+* ****************************************/
+#widget-container,
+.form-control,
+.panel {
+    background-color: #002129;
+}
+
+#widget-container,
+fieldset legend,
+h1, h2, h3, h4, h5, h6,
+.form-control,
+.has-float-label > label,
+.has-float-label > span {
+    color: #fff;
+}
+
+    
+        .bgcolor-dust {
+            background-color: #0098A6;
+        }
+        .bgcolor-dust a {
+            color: #fff !important;
+        }
+        .bgcolor-granite {
+            background-color: #fff !important; /* Single classes need !important */
+        }
+        .border-color-granite {
+            border-color: rgba(255, 255, 255, 0.3) !important; /* Single classes need !important */
+        }
+
+        .form-control,
+        .form-control:hover:not(:disabled),
+        .panel,
+        o-integer-input .o-integer-input.disabled .form-control,
+        o-integer-input .o-integer-input.disabled .input-group-addon,
+        .stripe-control {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .color-nightfall,
+        .color-nightfall-hover:hover,
+        .hr-label {
+            color: #fff !important;
+        }
+        .hr-label:before {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .hr-label:after {
+            background-color: #002129;
+            color: #fff;
+        }
+
+        .form-control[disabled],
+        .input-group.disabled .form-control,
+        .input-group.disabled .input-group-addon {
+            background-color: #222;
+        }
+
+        .x:before,
+        .x:after {
+            background-color: #0098A6;
+            opacity: 0.5;
+        }
+
+        /** Profile dark mode styles **/
+        div#widget-container .col-layout .col-nav #nav.nav-pills > li.active {
+            background-color: rgba(255,255,255,0.1);
+        }
+    
+
+/** Chat dark mode styles **/
+html[ng-app="outseta.widget.chat"] div#widget-container div#wrap div.widget,
+html[ng-app="outseta.widget.chat"] textarea {
+    background-color: #333;
+}
+
+    
+        html[ng-app="outseta.widget.chat"] .chat-history.border-color-white {
+            border-color: #0098A6 !important;
+        }
+
+        html[ng-app="outseta.widget.chat"] .file-upload-overlay.bgcolor-dust,
+        html[ng-app="outseta.widget.chat"] .chat-body.bgcolor-granite {
+            background-color: #474747 !important;
+        }
+
+        html[ng-app="outseta.widget.chat"] .chat-body.w-color-dark,
+        html[ng-app="outseta.widget.chat"] .file-upload-overlay.w-color-dark {
+            color: #fff !important;
+        }
+
+        html[ng-app="outseta.widget.chat"] div#widget-container div#wrap div.widget .body .chat-history .chat-msg .chat-heading,
+        html[ng-app="outseta.widget.chat"] div#widget-container div#wrap div.widget .body .chat-history .chat-msg .chat-footer {
+            opacity: 0.9;
+        }
+
+        html[ng-app="outseta.widget.chat"] textarea {
+            border-top-color: rgba(255, 255, 255, 0.1) !important;
+        }
+
+        html[ng-app="outseta.widget.chat"] textarea::placeholder {
+            color: #fff;
+        }
+    
+
+/* ****************************************
+* ** fieldStyle
+* ****************************************/
+    
+        .form-control,
+        .form-control:hover:not(:disabled),
+        .input-group-addon,
+        o-integer-input .o-integer-input .input-group-addon,
+        .stripe-control {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        select option {
+            /* option elements do not render with transparency */
+            background-color: #484848;
+        }
+
+        .has-float-label > label,
+        .has-float-label > span,
+        .input-group-addon > a,
+        .input-group-addon > a:hover {
+            color: #fff;
+        }
+
+        .input-group.disabled .form-control,
+        .input-group.disabled .input-group-addon > a,
+        .input-group.disabled .input-group-addon > a:hover,
+        o-integer-input .o-integer-input.input-group.disabled .form-control,
+        o-integer-input .o-integer-input.input-group.disabled .input-group-addon {
+            color: #fff;
+        }
+    
+
+
+/* ****************************************
+* ** borderWidth
+* ****************************************/
+
+    
+        .form-control,
+        .form-control:hover:not(:disabled),
+        .has-float-label .btn-group button,
+        .input-group .form-control,
+        .input-group .input-group-addon,
+        o-integer-input .input-group .input-group-addon,
+        o-integer-input .o-integer-input input.form-control,
+        o-integer-input .o-integer-input input.form-control:hover,
+        o-integer-input .o-integer-input input.form-control:focus,
+        o-integer-input .o-integer-input input.form-control:hover:not(:disabled),
+        o-integer-input .o-integer-input input.form-control:hover:not(:disabled):focus,
+        o-integer-input .o-integer-input.disabled .input-group-addon,
+        o-integer-input .o-integer-input.disabled .form-control,
+        .stripe-control {
+        border: 1px solid transparent;
+        }
+    
+
+
+/* ****************************************
+ * ** buttonStyle
+ * ****************************************/
+.btn-danger,
+.btn-danger:active,
+.btn-danger:active:hover,
+.btn-danger:active:focus,
+.btn-danger:focus,
+.btn-danger:hover,
+.btn-danger[disabled],
+.btn-danger[disabled]:hover {
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary[disabled],
+.btn-primary[disabled]:hover {
+        background-color: #0098A6;
+        color: #FFFFFF;
+}
+
+.is-loading .sk-fading-circle .sk-circle:before {
+    background-color: #FFFFFF;
+}
+
+
+/* ****************************************
+ * ** cornerShape (must be after borderWidth)
+ * ****************************************/
+
+
+/* ****************************************
+ * ** Define classes
+ * ****************************************/
+.w-bg-color-dark,
+.w-bg-color-dark:hover {
+    background-color: #0098A6 !important;
+}
+
+.w-border-color-dark {
+    border-color: #0098A6 !important;
+}
+
+.w-color-light {
+    color: #FFFFFF !important;
+}
+
+.w-color-dark {
+    color: #0098A6 !important;
+}
+
+.w-color-dark-hover {
+    color: #fff !important;
+}
+
+.w-color-dark-hover:hover {
+    color: #0098A6 !important;
+}
+
+.w-fill-dark {
+    fill: #0098A6 !important;
+}
+
+
+
