@@ -1,31 +1,23 @@
 # Hi, I'm James 👋
 
-I'm a designer and developer in Portland, Maine. Fifteen-ish years of designing digital products, and for the last stretch of that, building them too.
+Designer and developer in Portland, Maine. I've been designing digital products for about fifteen years and building them for the last few.
 
-I used to hand off Figma files. Now I mostly design in code — it turns out the fastest way to know whether an interaction feels right is to build it and click on it. Most of what I make these days starts as a prototype in a real stack and ends up as the real thing.
+Most of my design happens in code now rather than in Figma. It's faster to build the thing and click on it than to describe what it should do.
 
-### Day job
+## Outseta
 
-I design at **[Outseta](https://www.outseta.com)**, where we give builders auth, payments, CRM, and the rest of the business backend behind a single integration — so founders can spend their time on the product people actually pay for.
+I'm the designer at Outseta. We handle auth, payments, and CRM for people building SaaS products so they don't have to write that part themselves.
 
-My work there spans the marketing site and the product itself: the design and front-end of the site, and the design of new features. Lately a lot of it has been about what changes when AI agents are the ones doing the integrating.
+I design the marketing site and build its front end, and I work on the design of new product features. A lot of the recent work has been about what happens when an AI agent does the setup instead of a person.
 
-### What I'm into
+## Other work
 
-- **Design systems that live in code**, not in a Figma library that drifts out of sync by month three
-- **The handoff problem** — the gap between designers prototyping in code and developers shipping it is still weirdly unsolved
-- **Small tools for specific people** — some of my favorite projects exist to solve exactly one person's problem
+A healthcare facilities directory with search and maps, built over some fairly messy public data. Client sites in Next.js and Sanity. A few personal projects that aren't ready yet.
 
-### Other work
+## Tools
 
-- A directory app for healthcare facilities — search, maps, and a lot of messy public data made legible
-- Client websites, mostly Next.js + Sanity
-- A few things that aren't ready to talk about yet
+Next.js, TypeScript, Tailwind, shadcn/ui, Sanity, Webflow, GSAP, Vercel, Claude Code.
 
-### Stack
+## Why this profile looks empty
 
-Next.js · TypeScript · Tailwind · shadcn/ui · Sanity · Webflow · GSAP · Vercel · Claude Code
-
-### About the empty profile
-
-Almost everything I build is client work or private, so this page looks quieter than the work actually is. The contribution graph is the honest version.
+Nearly everything I build is private or belongs to a client. The contribution graph is a better picture of the work than the repo list is.
